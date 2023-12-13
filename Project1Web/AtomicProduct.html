@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="AtomicProduct.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <title>Atomic Tech</title>
+</head>
+
+<body>
+
+  <header>
+    <!-- Logo Link -->
+    <a href="#" class="logo">
+      <img src="src/img/atomiclogo.png" alt="Atomic Tech">
+  </a>
+
+  <!-- Menu Icon -->
+  <i class='bx bx-menu' id="menu-icon"></i>
+
+  <!-- Navigation Menu -->
+  <ul class="navbar">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#sponsor">Sponsor</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+  </ul>
+
+  <!-- Header Icons (Cart and Search) -->
+  <div class="header-icon">
+      <i class='bx bx-cart' id="cart-icon"></i>
+      <i class='bx bx-search' id="search-icon"></i>
+  </div>
+
+
+  </header>
+
+  <section id="Home">
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="src/img/slide1.jpg" style="width:100%">
+        <div class="text">Caption Text</div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="src/img/slide2.jpg" style="width:100%">
+        <div class="text">Caption Two</div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="src/img/slide3.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+    
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+<section class="sponsor-section" id="sponsor">
+  <h2>Our Sponsors</h2>
+  <div class="sponsor-container">
+    <div class="sponsor">
+      <img src="src/img/sponsor1.png" alt="Sponsor 1">
+    </div>
+    <div class="sponsor">
+      <img src="src/img/sponsor2.png" alt="Sponsor 2">
+    </div>
+    <div class="sponsor">
+      <img src="src/img/sponsor3.png" alt="Sponsor 3">
+    </div>
+    <div class="sponsor">
+      <img src="src/img/sponsor4.png" alt="Sponsor 4">
+    </div>
+    <div class="sponsor">
+      <img src="src/img/sponsor5.png" alt="Sponsor 5">
+    </div>
+    <div class="sponsor">
+      <img src="src/img/sponsor6.png" alt="Sponsor 6">
+    </div>
+    
+</section>
+
+
+<br>
+
+<section class="products" id="products">
+  <div class="heading">
+      <h2>Our Popular Products</h2>
+  </div>
+  
+  <div class="products-container">
+      <div class="box">
+          <img src="src/img/p1.png" alt="">
+          <h3>Lenovo Thinkbook 14</h3>
+          <div class="content">
+              <span>$491</span>
+              <a href="#">Add to cart</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="src/img/p2.png" alt="">
+          <h3>HP Spectre X360</h3>
+          <div class="content">
+              <span>$1070</span>
+              <a href="#">Add to cart</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="src/img/p3.png" alt="">
+          <h3>Acer Predator Helios Neo 16 PHN16-71-72DN</h3>
+          <div class="content">
+              <span>$865</span>
+              <a href="#">Add to cart</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="src/img/p4.png" alt="">
+          <h3>ASUS Zenbook 17 Fold</h3>
+          <div class="content">
+              <span>$2499</span>
+              <a href="#">Add to cart</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="src/img/p5.png" alt="">
+          <h3>Lenovo Yoga Slim 7i Pro</h3>
+          <div class="content">
+              <span>$885</span>
+              <a href="#">Add to cart</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="src/img/p6.png" alt="">
+          <h3>Huawei Matebook X Pro</h3>
+          <div class="content">
+              <span>$2111</span>
+              <a href="#">Add to cart</a>
+          </div>
+      </div>
+      <div class="box">
+        <img src="src/img/p7.png" alt="">
+        <h3>ASUS ROG Zephyrus M16</h3>
+        <div class="content">
+            <span>$1370</span>
+            <a href="#">Add to cart</a>
+        </div>
+    </div>
+    <div class="box">
+      <img src="src/img/p8.png" alt="">
+      <h3>Infinix INBook X1</h3>
+      <div class="content">
+          <span>$224</span>
+          <a href="#">Add to cart</a>
+      </div>
+  </div>
+  </div>
+</section>
+<br>
+
+<section class="footage">
+  <h2>footage</h2>
+  <div class="video-container">
+    <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/vIMXvukLCfg?si=g4tsT8Eyl2ndlN0j" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+      </iframe>
+</section>
+
+<br>
+<section class="contact" id="contact">
+<div class="contact-form-container">
+  <h2>Contact Us</h2>
+  <form action="#" method="post" class="contact-form">
+    <div class="form-group">
+      <label for="name">Nama:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="phone">No:</label>
+      <input type="number" id="phone" name="phone" required>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit">Send Message</button>
+    </div>
+  </form>
+</div>
+</section>
+<br>
+
+<section class="Map">
+  <h2>Map</h2>
+  <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16297996.970540414!2d112.15254595569166!3d-4.2196416469763705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c4c07d7496404b7%3A0xe37b4de71badf485!2sIndonesia!5e0!3m2!1sid!2sid!4v1702474070684!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<sectionn class="footer">
+  <div class="footer-box">
+      <h2>Atomic Tech</h2>
+      <p>Atomic Tech menjual berbagai kebutuhan untuk teknologi yang pastinya terjamin bagus. ADA HARGA ADA BARANG, Mau tahu ada apa saja dalam Atomic Tech? <br> Ikuti media sosial kami di bawah ini!!!</p>
+      <div class="social">
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-twitter'></i></a>
+          <a href="#"><i class='bx bxl-instagram'></i></a>
+          <a href="#"><i class='bx bxl-tiktok'></i></a>
+      </div>
+  </div>
+  <div class="footer-box">
+      <h3>Support</h3>
+      <li><a href="#">Product</a></li>
+      <li><a href="#">Help & Support</a></li>
+      <li><a href="#">Return Policy</a></li>
+      <li><a href="#">Term of  Use</a></li>
+  </div>
+  <div class="footer-box">
+      <h3>View Guides</h3>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">Blog Posts</a></li>
+      <li><a href="#">Our Branches</a></li>
+  </div>
+  <div class="footer-box">
+      <h3>Contact</h3>
+      <div class="contact">
+          <span><i class='bx bxs-map'></i>Yggdrasil, Tryathrann</span>
+          <span><i class='bx bxs-phone'></i>1 555 123 4567</span>
+          <span><i class='bx bxs-envelope'></i>Atomic Tech@shop.com</span>
+      </div>
+  </div>
+</sectionn>
+
+<div class="copyright">
+  <p>&#169; Muhammad Afdal Al Ghazali All Right Reserved</p>
+</div>
+
+</body>
+<script src="AtomicProduct.js"></script>
+</html>
